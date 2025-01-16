@@ -1,6 +1,6 @@
 # Detecting-and-Mitigating-Data-Exfiltration-Using-Wireshark
 
-I worked on a Lab use Hack The Box; where I received an alert from an Intrusion Detection System (IDS) regarding unusual outbound traffic originating from a workstation (IP: 192.168.1.101) during non-business hours. The alert indicated high data transfer rates to an unknown IP address (203.0.113.45). This raised concerns about potential data exfiltration.
+I worked on a Lab using Hack The Box; where I received an alert from an Intrusion Detection System (IDS) regarding unusual outbound traffic originating from a workstation (IP: 192.168.1.101) during non-business hours. The alert indicated high data transfer rates to an unknown IP address (203.0.113.45). This raised concerns about potential data exfiltration.
 
 Objective:
 
@@ -12,8 +12,9 @@ Take corrective actions to mitigate the threat and prevent recurrence.
 Steps Taken:
 
 1. Setting Up Traffic Capture with Wireshark
-  Opened Wireshark on a secured KALI Linux system connected to the mirrored port and began capturing live traffic.
-  Saved the capture session to a .pcap file for further offline analysis.
+
+Opened Wireshark on a secured KALI Linux system connected to the mirrored port and began capturing live traffic.
+Saved the capture session to a .pcap file for further offline analysis.
 
 2. Filtering and Prioritizing Relevant Traffic
 Applied the following filters in Wireshark to isolate the traffic from the workstation: ip.addr == 192.168.1.101
