@@ -1,7 +1,6 @@
 # Detecting-and-Mitigating-Data-Exfiltration-Using-Wireshark
 
-I worked on a Lab using Hack The Box; where I received an alert from an Intrusion Detection System (IDS) regarding unusual outbound traffic originating from a workstation (IP: 192.168.1.101) during non-business hours. The alert indicated high data transfer rates to an unknown IP address (203.0.113.45). This raised concerns about potential data exfiltration.
-
+I worked on a Lab using Hack The Box; where I received an alert from an Intrusion Detection System (IDS) regarding unusual outbound traffic originating from a workstation (IP: 192.168.1.101) during non-business hours. The alert indicated high data transfer rates to an unknown IP address (203.0.113.45). 
 Objective:
 
 Investigate the unusual outbound traffic to confirm if it is malicious.
