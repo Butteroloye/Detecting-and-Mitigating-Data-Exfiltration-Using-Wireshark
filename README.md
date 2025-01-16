@@ -67,6 +67,9 @@ Automated network traffic monitoring with alerts for high outbound traffic or co
 Outcome:
 
 Successfully mitigated the data exfiltration attempt, preventing further data loss.
+
 Identified and remediated two additional compromised systems.
+
 Strengthened the organization's security posture with new preventative measures.
+
 Presented a detailed incident report to stakeholders, showcasing Wireshark's role in detecting and resolving the issue.
